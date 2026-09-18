@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 650px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.note-form input,
+.note-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.note-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.note-form button:hover {
+  background-color: #0056b3;
+}
+
+.status-msg {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+.status-msg.error {
+  color: #d9534f;
+}
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.note-card {
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.note-card h3 {
+  margin: 0 0 8px 0;
+  color: #222;
+}
+
+.note-card .content {
+  margin: 0 0 10px 0;
+  color: #555;
+  white-space: pre-wrap;
+}
+
+.note-card .date {
+  font-size: 11px;
+  color: #888;
+  display: block;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #bd2130;
+}
